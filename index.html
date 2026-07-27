@@ -760,3 +760,178 @@ background-attachment:fixed;
 }
 
 </style>
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section id="contact">
+
+<div class="container">
+
+<h2 class="title">
+Contact
+</h2>
+
+<div class="card">
+
+<p>
+ご意見・ご感想・お仕事のご相談など、お気軽にどうぞ。
+</p>
+
+<br>
+
+<a class="button" href="mailto:example@example.com">
+お問い合わせ
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Henohenomoheji</p>
+
+</footer>
+
+<div class="top" id="top">
+⬆
+</div>
+
+<script>
+
+/* ローディング */
+
+window.addEventListener("load",()=>{
+
+setTimeout(()=>{
+
+document.getElementById("loading").style.opacity="0";
+
+setTimeout(()=>{
+
+document.getElementById("loading").style.display="none";
+
+},800);
+
+},600);
+
+});
+
+
+/* スクロール表示 */
+
+const reveals=document.querySelectorAll(".reveal");
+
+function reveal(){
+
+reveals.forEach(el=>{
+
+const top=el.getBoundingClientRect().top;
+
+if(top<window.innerHeight-100){
+
+el.classList.add("active");
+
+}
+
+});
+
+}
+
+window.addEventListener("scroll",reveal);
+
+reveal();
+
+
+/* 上へ戻るボタン */
+
+const topBtn=document.getElementById("top");
+
+topBtn.onclick=()=>{
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+};
+
+window.addEventListener("scroll",()=>{
+
+if(window.scrollY>400){
+
+topBtn.style.opacity="1";
+
+}else{
+
+topBtn.style.opacity=".3";
+
+}
+
+});
+
+</script>
+
+<style>
+
+#top{
+
+opacity:.3;
+
+transition:.3s;
+
+}
+
+#top:hover{
+
+transform:scale(1.1);
+
+}
+
+.button{
+
+background:linear-gradient(90deg,#00d9ff,#0099ff);
+
+}
+
+.button:hover{
+
+background:linear-gradient(90deg,#00ffff,#00aaff);
+
+}
+
+.card{
+
+box-shadow:0 10px 30px rgba(0,229,255,.15);
+
+}
+
+.hero{
+
+animation:zoomHero 15s ease-in-out infinite alternate;
+
+}
+
+@keyframes zoomHero{
+
+from{
+
+background-size:100%;
+
+}
+
+to{
+
+background-size:110%;
+
+}
+
+}
+
+</style>
