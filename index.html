@@ -1174,3 +1174,222 @@ particles.appendChild(d);
 }
 
 </script>
+<script>
+
+/* ページ表示時にフェードイン */
+document.body.style.opacity="0";
+
+window.addEventListener("load",()=>{
+
+document.body.style.transition="opacity 1s";
+
+document.body.style.opacity="1";
+
+});
+
+
+/* カードに少し傾く演出 */
+
+document.querySelectorAll(".card").forEach(card=>{
+
+card.addEventListener("mousemove",(e)=>{
+
+const rect=card.getBoundingClientRect();
+
+const x=e.clientX-rect.left;
+
+const y=e.clientY-rect.top;
+
+const rx=(y-rect.height/2)/18;
+
+const ry=(rect.width/2-x)/18;
+
+card.style.transform=
+`perspective(800px)
+rotateX(${rx}deg)
+rotateY(${ry}deg)
+translateY(-8px)`;
+
+});
+
+card.addEventListener("mouseleave",()=>{
+
+card.style.transform="";
+
+});
+
+});
+
+
+/* Heroタイトルをゆっくり浮かせる */
+
+const heroTitle=document.querySelector(".hero h1");
+
+let t=0;
+
+setInterval(()=>{
+
+t+=0.03;
+
+heroTitle.style.transform=
+`translateY(${Math.sin(t)*8}px)`;
+
+},16);
+
+</script>
+
+<style>
+
+/* 背景 */
+
+body{
+
+background:
+radial-gradient(circle at top,
+#12355d 0%,
+#081221 40%,
+#040811 100%);
+
+}
+
+/* Hero */
+
+.hero{
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.hero::after{
+
+content:"";
+
+position:absolute;
+
+width:220%;
+
+height:220%;
+
+background:
+
+radial-gradient(
+rgba(0,229,255,.10),
+transparent 70%
+);
+
+animation:bgRotate 35s linear infinite;
+
+}
+
+@keyframes bgRotate{
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+/* ボタン */
+
+.button{
+
+letter-spacing:1px;
+
+font-size:18px;
+
+}
+
+.button:hover{
+
+box-shadow:
+
+0 0 25px cyan,
+
+0 0 50px cyan,
+
+0 0 80px cyan;
+
+}
+
+/* カード */
+
+.card{
+
+transition:
+
+transform .35s,
+
+box-shadow .35s;
+
+}
+
+.card:hover{
+
+box-shadow:
+
+0 0 35px rgba(0,229,255,.35);
+
+}
+
+/* フッター */
+
+footer{
+
+background:#040811;
+
+border-top:
+
+1px solid rgba(255,255,255,.08);
+
+}
+
+/* スマホ */
+
+@media(max-width:768px){
+
+.hero{
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:44px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.button{
+
+padding:15px 35px;
+
+}
+
+.card{
+
+padding:22px;
+
+}
+
+}
+
+</style>
+
+</body>
+</html>
