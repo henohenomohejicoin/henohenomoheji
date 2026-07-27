@@ -935,3 +935,242 @@ background-size:110%;
 }
 
 </style>
+<!-- =========================
+     MOBILE MENU
+========================= -->
+
+<div id="menuBtn">☰</div>
+
+<div id="mobileMenu">
+
+<a href="#about">紹介</a>
+<a href="#gallery">Gallery</a>
+<a href="#youtube">YouTube</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+<!-- =========================
+     PARTICLES
+========================= -->
+
+<div id="particles"></div>
+
+<style>
+
+/* ハンバーガー */
+
+#menuBtn{
+
+position:fixed;
+top:18px;
+right:20px;
+
+width:50px;
+height:50px;
+
+display:none;
+
+justify-content:center;
+align-items:center;
+
+font-size:30px;
+
+cursor:pointer;
+
+background:rgba(255,255,255,.1);
+
+backdrop-filter:blur(12px);
+
+border-radius:12px;
+
+z-index:99999;
+
+}
+
+#mobileMenu{
+
+position:fixed;
+
+top:0;
+right:-260px;
+
+width:240px;
+height:100vh;
+
+background:#071220;
+
+display:flex;
+
+flex-direction:column;
+
+padding-top:90px;
+
+transition:.4s;
+
+z-index:9999;
+
+}
+
+#mobileMenu a{
+
+padding:18px 30px;
+
+color:white;
+
+text-decoration:none;
+
+font-size:20px;
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+#mobileMenu.open{
+
+right:0;
+
+}
+
+@media(max-width:768px){
+
+#menuBtn{
+
+display:flex;
+
+}
+
+.menu{
+
+display:none;
+
+}
+
+}
+
+/* スクロールバー */
+
+#progress{
+
+position:fixed;
+
+top:0;
+left:0;
+
+height:4px;
+
+background:#00e5ff;
+
+width:0%;
+
+z-index:999999;
+
+box-shadow:0 0 15px cyan;
+
+}
+
+/* パーティクル */
+
+#particles{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+overflow:hidden;
+
+pointer-events:none;
+
+z-index:-1;
+
+}
+
+.dot{
+
+position:absolute;
+
+border-radius:50%;
+
+background:rgba(0,229,255,.3);
+
+animation:float linear infinite;
+
+}
+
+@keyframes float{
+
+from{
+
+transform:translateY(120vh);
+
+}
+
+to{
+
+transform:translateY(-20vh);
+
+}
+
+}
+
+</style>
+
+<div id="progress"></div>
+
+<script>
+
+/* ハンバーガー */
+
+const menuBtn=document.getElementById("menuBtn");
+
+const mobile=document.getElementById("mobileMenu");
+
+menuBtn.onclick=()=>{
+
+mobile.classList.toggle("open");
+
+};
+
+/* スクロールバー */
+
+window.addEventListener("scroll",()=>{
+
+let h=document.documentElement;
+
+let s=(h.scrollTop)/(h.scrollHeight-h.clientHeight)*100;
+
+document.getElementById("progress").style.width=s+"%";
+
+});
+
+/* パーティクル */
+
+const particles=document.getElementById("particles");
+
+for(let i=0;i<40;i++){
+
+let d=document.createElement("div");
+
+d.className="dot";
+
+let size=Math.random()*8+3;
+
+d.style.width=size+"px";
+
+d.style.height=size+"px";
+
+d.style.left=Math.random()*100+"%";
+
+d.style.animationDuration=(8+Math.random()*12)+"s";
+
+d.style.animationDelay=Math.random()*8+"s";
+
+particles.appendChild(d);
+
+}
+
+</script>
