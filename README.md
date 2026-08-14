@@ -1,4 +1,4 @@
-#へのへのもへじ(moj)
+へのへのもへじ(moj)
 
 へ   へ     Eyebrows  
 の   の     Eyes  
