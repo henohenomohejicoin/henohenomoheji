@@ -1,32 +1,27 @@
-へのへのもへじ(moj)
-
-へ   へ      Eyebrows  
-の   の      Eyes  
-  も         Nose  
-  へ         Mouth  
-  じ         Sweat
-
-A scarecrow is a figure used to guard crops against damage. "Henohenomoheji" became popular about 1,200 years ago as a creative application of Japanese hiragana characters; it was commonly drawn as the face of a scarecrow. Here, we have recreated this concept in the world of Web3.
-
-henohenomohejicoin: A Cultural and Community Token henohenomoheji (MOJ)
+henohenomohejicoin: A Cultural and Community Token
+henohenomoheji (MOJ)
 
 Email: henohenomoheji.moj@gmail.com
 
 Official Website: https://henohenomoheji.tok.best/
 
-henohenomoheji (MOJ) Token Whitepaper
-Table of Contents
-Introduction
-What is henohenomoheji?
-Project Overview and Purpose
-Token Details
-Use Cases
-Technology and Security
-Community and Governance
-Roadmap
-Team and Partnerships
-Disclaimer
+# henohenomoheji (MOJ) Token Whitepaper
+
+## Table of Contents
+
 1. Introduction
+2. What is henohenomoheji?
+3. Project Overview and Purpose
+4. Token Details
+5. Use Cases
+6. Technology and Security
+7. Community and Governance
+8. Roadmap
+9. Team and Partnerships
+10. Disclaimer
+
+## 1. Introduction
+
 henohenomoheji (MOJ) is a community-driven and culturally inspired digital token developed on the Solana blockchain. It is designed to connect Japan's rich cultural heritage with decentralized blockchain technology.
 
 By issuing a token with a fixed total supply, henohenomoheji creates an experimental platform for exploring new models of social token economies that promote meaningful user participation, creativity, and decentralized collaboration.
@@ -35,7 +30,8 @@ The project emphasizes decentralization, openness, and transparency while encour
 
 Our mission is to foster a vibrant, fair, and open ecosystem where users worldwide can participate, co-create, and experiment with blockchain-powered cultural and social innovations.
 
-2. What is henohenomoheji?
+## 2. What is henohenomoheji?
+
 The henohenomoheji (MOJ) token draws its inspiration from a culturally significant Japanese design composed of hiragana characters arranged to create a whimsical and familiar face. It symbolizes simplicity, creativity, humor, and playful imagination.
 
 By transforming this cultural icon into a digital blockchain token, henohenomoheji reinterprets a traditional Japanese symbol within a modern technological framework.
@@ -44,7 +40,8 @@ The project's philosophy centers on accessibility, inclusiveness, and storytelli
 
 Rather than relying solely on short-term hype or speculative trends, henohenomoheji seeks to develop value through cultural narrative, community engagement, creativity, and practical utility.
 
-3. Project Overview and Purpose
+## 3. Project Overview and Purpose
+
 henohenomoheji is conceived as a community-oriented utility token built on the high-speed, low-cost Solana blockchain.
 
 The project's primary aim is to explore how blockchain technology can enrich social and cultural interactions beyond purely financial or speculative use.
@@ -57,37 +54,45 @@ The tokenomics are designed around a fixed supply of 1,000,000,000 tokens with 6
 
 henohenomoheji also aims to explore future connections with cultural, educational, creative, and digital initiatives.
 
-4. Token Details
-Token Name: henohenomoheji
-Symbol: MOJ
-Decimals: 6
-Total Supply: 1,000,000,000 tokens
-Blockchain: Solana
-Contract Address: 5EcYAi9ETKWMw5F5GuocR2ZBqfN4tGUv4LCdZZVJpump
+## 4. Token Details
+
+* **Token Name:** henohenomoheji
+* **Symbol:** MOJ
+* **Decimals:** 6
+* **Total Supply:** 1,000,000,000 tokens
+* **Blockchain:** Solana
+* **Contract Address:** 5EcYAi9ETKWMw5F5GuocR2ZBqfN4tGUv4LCdZZVJpump
+
 The contract address will be published through official project channels after launch. Users should verify the official contract address before interacting with or acquiring the token.
 
 The token is intended to follow the Solana SPL token standard, supporting compatibility with appropriate Solana wallets and decentralized applications.
 
 Public blockchain data will allow users to verify relevant token information, including supply and transfers, through Solana blockchain explorers after launch.
 
-5. Use Cases
+## 5. Use Cases
+
 henohenomoheji is designed to explore a broad range of practical, social, and cultural functions within the decentralized ecosystem.
 
-Community Engagement and Social Tokens
+### Community Engagement and Social Tokens
+
 MOJ may be used to support community participation, social rewards, voting mechanisms, participation incentives, and other community-driven activities.
 
-Artistic Collaborations and NFT Experiences
+### Artistic Collaborations and NFT Experiences
+
 The ecosystem may support creative collaborations, digital art projects, and NFT-related experiences that celebrate Japanese culture and connect creators with communities worldwide.
 
-Education, Tourism, and Digital Storytelling
+### Education, Tourism, and Digital Storytelling
+
 The project aims to explore potential applications involving educational content, cultural storytelling, and interactive experiences inspired by Japanese culture.
 
-Tipping and Microtransactions
+### Tipping and Microtransactions
+
 MOJ may be used for tipping and small-value transactions within compatible communities and applications, subject to future ecosystem development.
 
 These potential use cases reflect the project's vision of combining cultural expression with blockchain technology.
 
-6. Technology and Security
+## 6. Technology and Security
+
 henohenomoheji is planned as a token on the Solana blockchain, which offers high transaction throughput and low transaction costs.
 
 The project intends to follow applicable Solana token standards to support compatibility with suitable wallets, decentralized applications, and other ecosystem services.
@@ -96,7 +101,8 @@ Blockchain transactions are publicly verifiable on the Solana network. Users are
 
 Technical features, security measures, integrations, and other infrastructure may evolve as the project develops.
 
-7. Community and Governance
+## 7. Community and Governance
+
 henohenomoheji is intended to be a community-oriented project that values user participation and open collaboration.
 
 The project aims to encourage community feedback, proposals, creative contributions, and participation in the future development of the ecosystem.
@@ -105,22 +111,27 @@ Potential governance mechanisms may be explored as the ecosystem develops. Any g
 
 Community communication and activities may include social media discussions, campaigns, events, creative projects, and other initiatives.
 
-8. Roadmap
-Period	Milestone	Details
-Q3 2029	Token Launch and Whitepaper Release	Official launch of the henohenomoheji (MOJ) token and publication of the official whitepaper and core project materials.
-Q3–Q4 2029	Official Website and Community Development	Development and expansion of official project channels, website improvements, and community-building activities.
-Q4 2029–2031	Ecosystem and Utility Exploration	Exploration of potential token utility, creator collaborations, cultural projects, and compatible ecosystem integrations.
-2032 and Beyond	Ecosystem Expansion	Continued development based on community participation, technical feasibility, regulatory considerations, and project priorities.
-Note: This roadmap represents the project's current plans and is subject to change. Actual timing, features, partnerships, and implementation may differ due to technical, regulatory, market, or other factors.
+## 8. Roadmap
 
-9. Team and Partnerships
+| Period              | Milestone                                  | Details                                                                                                                           |
+| ------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Q3 2029**         | Token Launch and Whitepaper Release        | Official launch of the henohenomoheji (MOJ) token and publication of the official whitepaper and core project materials.          |
+| **Q3–Q4 2029**      | Official Website and Community Development | Development and expansion of official project channels, website improvements, and community-building activities.                  |
+| **Q4 2029–2031**    | Ecosystem and Utility Exploration          | Exploration of potential token utility, creator collaborations, cultural projects, and compatible ecosystem integrations.         |
+| **2032 and Beyond** | Ecosystem Expansion                        | Continued development based on community participation, technical feasibility, regulatory considerations, and project priorities. |
+
+**Note:** This roadmap represents the project's current plans and is subject to change. Actual timing, features, partnerships, and implementation may differ due to technical, regulatory, market, or other factors.
+
+## 9. Team and Partnerships
+
 henohenomoheji is developed as a community-oriented cultural blockchain project.
 
 The project welcomes future collaboration from developers, creators, cultural contributors, community members, and other participants who share an interest in exploring the intersection of Japanese culture, creativity, and decentralized technology.
 
 Potential partnerships and collaborations will be announced through official channels if and when they are formally established.
 
-10. Disclaimer
+## 10. Disclaimer
+
 henohenomoheji (MOJ) is intended as a community-oriented token for cultural, social, and utility-related purposes.
 
 Nothing in this whitepaper constitutes financial, investment, legal, or tax advice. MOJ is not presented as a guarantee of profit or financial return.
