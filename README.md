@@ -1,7 +1,7 @@
 へのへのもへじ(moj)
 
-へ   へ     Eyebrows  
-の   の     Eyes  
+へ   へ      Eyebrows  
+の   の      Eyes  
   も         Nose  
   へ         Mouth  
   じ         Sweat
