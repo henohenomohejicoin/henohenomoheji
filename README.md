@@ -1,3 +1,16 @@
+henohenomoheji (MOJ)
+Character Structure
+<pre>
+へ　へ　Eyebrows
+の　の　Eyes
+　も　　Nose
+　へ　　Mouth
+　じ　　Sweat
+</pre>
+ Overview
+
+henohenomoheji (MOJ)  is a traditional face made from hiragana characters, with roots tracing back over 1,200 years to scarecrow traditions.
+
 # henohenomohejicoin: A Cultural and Community Token
 
 **henohenomoheji (MOJ)**
