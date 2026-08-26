@@ -9,7 +9,7 @@ Character Structure
 </pre>
  Overview
 
-henohenomoheji (MOJ)  is a traditional face made from hiragana characters, with roots tracing back over 1,200 years to scarecrow traditions.
+MOJ is a timeless traditional face formed from hiragana characters, rooted in ancient scarecrow traditions.
 
 # henohenomohejicoin: A Cultural and Community Token
 
